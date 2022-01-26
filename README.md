@@ -11,6 +11,7 @@ For every every web application, there is a need to send the user an email. In t
     npm install @sendgrid/mail
     
 **Install dotenv from npm**
+
 You want to read the .env file and the dotenv package on npm does this very well. Install the dotenv package by running the following command
 
     npm install dotenv
