@@ -21,12 +21,14 @@ You want to read the .env file and the dotenv package on npm does this very well
     SendgridAPIKey = SG.XXXXX.XXXXX.XXXXX
     
 **Read the .env file**
+
 It’s time to read the .env file with a little bit of code. Replace the contents of your index.js file with the following code.
 
     const dotenv = require('dotenv');
     dotenv.config();
 
 **Import Sendgrid class to send Email**
+
 It’s time to read the .env file with a little bit of code. Replace the contents of your index.js file with the following code.
 
     const sendGridMail = require('@sendgrid/mail');
